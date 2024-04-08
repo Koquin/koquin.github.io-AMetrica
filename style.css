@@ -1,0 +1,116 @@
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+aside {
+  flex: 1;
+}
+
+#donl {
+  width: 500px;
+  height: 300px;
+  padding-left: 20px;
+  border-radius: 20%;
+}
+
+#opiniao {
+  padding-left: 95px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: larger;
+  color: #ffffff;
+}
+
+#titulo {
+  text-align: center;
+  color: white;
+}
+h2 {
+  color: white;
+}
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+p.NaLateral {
+  text-align: left;
+}
+body {
+  background-image: linear-gradient(to right, #bf4226, #f2c879);
+  color: white;
+}
+tr.tabelaHeader {
+  background-color: black;
+}
+tr.par {
+  background-color: #0d0d0d;
+}
+tr.impar {
+  background-color: #bf5b21;
+}
+
+#rodape {
+  text-align: right;
+  padding-right: 20px;
+}
+
+#cabecalho,
+#rodape,
+#textorodape {
+  font-family: "Oswald", sans-serif;
+  background-color: #f2c879;
+  color: #bf4226;
+}
+#cabecalho {
+  display: flex;
+  direction: row;
+}
+#nomeSite {
+  padding-left: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#menu {
+  display: flex;
+  direction: row;
+  padding-left: 850px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#menuInicio {
+  padding-right: 25px;
+}
+
+#menuPrimeiroPost {
+  padding-right: 25px;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+#pesquisa {
+  padding-left: 200px;
+}
+
+#top5 {
+  text-align: center;
+  width: 100%;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+#titulo {
+  font-size: 300%;
+  color: black;
+}
+
+#autor {
+  text-align: right;
+  justify-content: right;
+}
